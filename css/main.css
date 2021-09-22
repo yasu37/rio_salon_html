@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.content_top {
+    height: 400px;
+}
+
+hr {
+    display: block;
+    border-top: 1px solid #d4d4d4;
+}
+
+/*記事*/
+
+#content {
+    margin: 60px 0;
+}
+
+#content h1{
+    font-size: 30px;
+    text-align: center;
+    color: #7f6666;
+}
+
+#content .info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#content .info2 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#content .info2_link {
+    margin-top: 30px;
+}
+
+
+/*記事1*/
+
+#content1 {
+    margin: 60px 0;
+}
+
+#content1 h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #7f6666;
+}
+
+#content1 .image1 img {
+    width: 360px;
+    height: 240px;
+}
+
+.content1_list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content1_box {
+    width: 30%;
+    margin-top: 15px;
+}
+
+.info1 {
+    color: #E0866B;
+    font-size: 22px;
+}
+
+.info2 p {
+    line-height: 250%;
+}
+
+.info2_link a {
+    background: #ccc;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 16px;
+    font-size: 16px;
+}
+
+/*2つ目の記事*/
+#content2 {
+    margin: 60px 0;
+    text-align: center;
+}
+
+#content2 .image2 img {
+    width: 1150px;
+    height: 580px;
+}
