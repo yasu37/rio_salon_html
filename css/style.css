@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+    width: 1250px;
+    color: #623716;
+    font-family: "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div {
+    display: block;
+}
+
+header {
+    background: burlywood;
+    height: 150px;
+}
+
+.content1_top {
+    background-color: #FFE2D6;
+    height: 275px;
+    padding-top: 35px;
+    position: relative;
+    background: #eee;
+}
+
+#content1 {
+    margin: 30px 0 50px 0;
+}
+
+#content1 .image1 img {
+    width: 360px;
+    height: 240px;
+}
+
+.content1_list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content1_box {
+    width: 30%;
+    margin-top: 15px;
+}
+
+.info1 {
+    color: #E0866B;
+    font-size: 22px;
+}
+
+.info2 p {
+    line-height: 250%;
+}
+
+.info2_link a {
+    background: #ccc;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 16px;
+    font-size: 16px;
+}
+
+/*2つ目の記事*/
+#content2 .image2 img {
+    width: 1150px;
+    height: 580px;
+    display: block;
+    margin: 0 auto;
+}
+
+#content2 {
+    text-align: center;
+}
+
+#footer_top {
+    background: #f9f8f4;
+    margin-top: 50px;
+}
+
+.f_logo {
+    width: 300px;
+    height: 120px;
+}
