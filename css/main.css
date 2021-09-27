@@ -12,7 +12,8 @@ hr {
 /*記事*/
 
 #content {
-    margin: 80px 0;
+    padding: 80px 0;
+    background-color: #f9f8f4;
 }
 
 #content h1{
@@ -91,26 +92,16 @@ hr {
 }
 
 
-/*2つ目の記事*/
-
-#content2 {
-    margin: 80px 0;
-    text-align: center;
-}
-
-#content2 .image2 img {
-    width: 1150px;
-    height: 580px;
-}
-
 /*記事3*/
 #content3 .container {
     border: 3px solid #bedf7a;
+    border: 3px solid #ffffcf;
     background-color: #f5f7f2;
-    padding: 50px 50px 55px;
+    background-color: #f9f8f4;
+    padding: 80px 50px;
 }
 
-.message-title {
+#content3 .message-title {
     font-size: 2.8rem;
     font-weight: 300;
     line-height: 1.4;
@@ -118,34 +109,54 @@ hr {
     text-align: center;
 }
 
-.message-container {
+#content3 .message-container {
     display: flex;
     justify-content: center;
 }
 
-.img-responsive {
+#content3 .img-responsive {
     display: block;
     width: 300px;
     height: 300px;
 }
 
-.president-name {
+#content3 .president-name {
     font-size: 1.9rem;
     line-height: 1.8;
     text-align: center;
     padding-top: 3rem;
 }
 
-.message-content {
+#content3 .message-content {
     padding-left: 50px;
     line-height: 1.8;
     width: 600px;
 }
 
+#content3 .message-content p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
 /*店舗情報*/
+
+#location {
+    padding: 80px 0;
+}
+
+#location h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #d4ab37;
+    padding-bottom: 60px;
+}
 
 #location .ginza-container {
     display: grid;
     grid-template-columns: 600px 450px;
-    grid-template-rows: 450px 300px;
+    grid-template-rows: 450px 450px;
+}
+
+#location .access-info p {
+    text-align: left;
 }
