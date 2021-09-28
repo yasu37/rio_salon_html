@@ -43,12 +43,12 @@ hr {
 }
 
 
-/*記事1*/
+/*メニュー*/
 
 #content1 {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: #f9f8f4
+    background-color: #f9f8f4;
 }
 
 #content1 h1 {
@@ -148,7 +148,7 @@ hr {
 
 #location {
     padding: 80px 0;
-    background-color: #f9f8f4
+    background-color: #f9f8f4;
 }
 
 #location h1 {

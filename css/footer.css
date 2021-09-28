@@ -48,3 +48,9 @@
   line-height: 2em;
   font-size: 18px;
 }
+
+#footer_address {
+  display: block;
+  width: 1250px;
+  height: 40px;
+}
