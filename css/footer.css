@@ -1,24 +1,22 @@
 @charset "UTF-8";
 
 .f_logo {
-    width: 300px;
-    height: 120px;
+  width: 450px;
+  height: 200px;
+  text-align: center;
 }
 
 #footer_top {
   display: block;
-  width: 1150px;
-  margin: 0 auto;
-  padding: 80px 0 75px;
+  width: 1250px;
+  padding: 30px 0;
   text-align: center;
-  background: #f9f8f4;
-  background: #ffffcf;
-   margin-top: 50px;
+
 }
 
 #footer_logo p {
   display: block;
-  width: 1150px;
+  width: 1250px;
   height: 126px;
 }
 
