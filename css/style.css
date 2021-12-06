@@ -12,12 +12,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 body {
     display: block;
-    width: 1250px;
-    color: #623716;
-    font-family: "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
     text-align: center;
+    font-family: "Noto Serif JP",serif;
+    line-height: 1.8;
+    color: #666;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
 }
 
 p, div, header, main {
     display: block;
+}
+
+a {
+    text-decoration: none;
 }

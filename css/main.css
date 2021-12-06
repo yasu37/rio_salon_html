@@ -13,13 +13,11 @@ hr {
 
 #content {
     padding: 80px 0;
-    background-color: #f9f8f4;
 }
 
-#content h1{
+#content .section_title{
     font-size: 30px;
     text-align: center;
-    color: #d4ab37;
     margin-bottom: 50px;
 }
 
@@ -42,68 +40,13 @@ hr {
     margin-top: 50px;
 }
 
-
-/*メニュー*/
-
-#content1 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: #f9f8f4;
-}
-
-#content1 h1 {
-    font-size: 30px;
-    text-align: center;
-    color: #d4ab37;
-}
-
-#content1 .image1 img {
-    width: 360px;
-    height: 240px;
-}
-
-.content1_list {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.content1_box {
-    width: 30%;
-    margin-top: 50px;
-}
-
-.info1 {
-    color: #E0866B;
-
-    font-size: 22px;
-}
-
-.info2 p {
-    line-height: 250%;
-}
-
-.info2_link a {
-    background: #ccc;
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    width: 180px;
-    height: 50px;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 16px;
-    font-size: 16px;
+#content  .button03 a {
+    background-color: #ecf8fa;
 }
 
 
 /*記事3*/
 #content3 .container {
-    border: 3px solid #bedf7a;
-    border: 3px solid #ffffcf;
-    background-color: #f5f7f2;
-    background-color: #f9f8f4;
     padding: 80px 50px;
 }
 
@@ -111,7 +54,7 @@ hr {
     font-size: 2.8rem;
     font-weight: 300;
     line-height: 1.4;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -144,6 +87,11 @@ hr {
     text-align: left;
 }
 
+#content3 .button03 a {
+    background-color: #ecf8fa;
+    margin-top: 55px;
+}
+
 /*店舗情報*/
 
 #location {
@@ -151,10 +99,9 @@ hr {
     background-color: #f9f8f4;
 }
 
-#location h1 {
+#location .section_title {
     font-size: 30px;
     text-align: center;
-    color: #d4ab37;
     padding-bottom: 60px;
 }
 
@@ -170,9 +117,13 @@ hr {
     align-items: flex-end;
 }
 
-#location .access-info h2 {
-    font-size: 1.8rem;
+#location ul {
+    flex-flow: column;
+    padding: 0 5%;
+    letter-spacing: 7px;
+    list-style: none;
 }
+
 
 #location .access-info p {
     text-align: left;

@@ -1,32 +1,95 @@
-@charset "UTF-8";
-
-.header_top {
-    height: 150px;
+@media screen and (min-width: 1300px){
+    .is_pc {
+        display: block!important;
+        visibility: visible;
+    }
+}
+@media screen and (max-width: 1300px){
+    .is_pc {
+        display: none!important;
+        visibility: hidden;
+    }
 }
 
-#header_top .logo {
-    text-align: center;
+body {
+    width: auto;
 }
 
-#global_navi {
-    background: #ffffcf;
-    height: 60px;
+header h1 {
+    width: 140px;
+    max-width: 140px;
+    margin: 0.5rem auto 1.5rem;
 }
 
-.navi_ul {
-    list-style-type: none;
+header h1 a {
+    width: 100%;
+}
+
+header h1 a img {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.header_contact  .menu_reservation {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu_reservation .tel_number {
+    font-size: 2rem;
+    letter-spacing: 5px;
+    padding: 1.5rem 0;
+}
+
+.menu_reservation .tel_number span {
+    font-size: 1.3rem;
+    position: relative;
+    top: -3px;
+}
+
+.menu_reservation .tel_number .tel1{
+    font-size: 1.8rem;
+    position: relative;
+    top: -3px;
+}
+
+.header_contact .social_nav {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.social_nav {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    list-style: none;
 }
 
-.navi_li a {
-    font-size: 14px;
-    text-decoration: none;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 30px;
+.header_menu .g_nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    list-style: none;
+}
+.g_nav > li {
+    padding: 2px;
+}
+.g_nav > li > a {
     display: block;
-    box-sizing: border-box;
-    color: #4D2B11;
-    font-family: "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+    padding: 8px;
+    font-size: 1.2rem;
+    color: inherit;
+    letter-spacing: 5px;
 }
