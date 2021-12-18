@@ -1,0 +1,78 @@
+/*記事4*/
+/* ~コース紹介 ~ */
+
+#course {
+    padding-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#course .section_title {
+  margin-bottom: 40px;
+}
+
+#course h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #d4ab37;
+}
+
+#course .image2 img {
+    width: 360px;
+    height: 240px;
+}
+
+.course_list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course_box {
+    width: 30%;
+    margin-top: 50px;
+}
+
+.course_box .info {
+    font-size: 2rem;
+}
+.course_box .info1 {
+    letter-spacing: 10px;
+}
+.info2 p {
+    font-size: 1.5rem;
+}
+
+.info2 .button03 a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 35%;
+  color: #2285b1;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ecf8fa;
+}
+
+.info2 .button03 a::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top:  3px solid #2285b1;
+  border-right: 3px solid #2285b1;
+  transform: rotate(45deg);
+}
+
+.info2 .button03 a:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #a0c4d3;
+}
+
+.info2 .button03 a:hover::after {
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+}

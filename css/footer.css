@@ -8,22 +8,22 @@ footer {
   position: relative;
 }
 
-.footer_tel {
+footer .number {
   margin-bottom: 1rem;
   font-size: 3.5rem;
   letter-spacing: 0.5rem;
   line-height: 1.3;
 }
 
-.footer_tel span {
+footer .number span {
   font-size: 1.5rem;
 }
 
-.footer_tel .tel1 {
+footer .number .tel1 {
   font-size: 3.5rem;
 }
 
-.footer_time {
+footer .date {
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: center;
@@ -33,11 +33,11 @@ footer {
   list-style: none;
 }
 
-.footer_time li+li {
+footer .date li+li {
   margin-left: 2rem;
 }
 
-.sns_items {
+footer .items {
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: center;
@@ -47,7 +47,7 @@ footer {
   list-style: none;
 }
 
-.copyright {
+footer .copyright {
   font-size: 1rem;
   letter-spacing: 0.5rem;
 }

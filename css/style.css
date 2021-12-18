@@ -19,6 +19,7 @@ body {
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
+    width: auto;
 }
 
 p, div, header, main {
@@ -27,4 +28,54 @@ p, div, header, main {
 
 a {
     text-decoration: none;
+}
+
+/*ボタンデザイン*/
+.button03 a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 300px;
+  color: #2285b1;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button03 a::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top:  3px solid #2285b1;
+  border-right: 3px solid #2285b1;
+  transform: rotate(45deg);
+}
+
+.button03 a:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #a0c4d3;
+  background-color: #ebffeb;
+}
+
+.button03 a:hover::after {
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+}
+
+
+/*タイトルデザイン*/
+.section_title h2 {
+    font-size: 3rem;
+    letter-spacing: 10px;
+    font-weight: 100;
+    color: #86ccff;
+    color: #20b2aa;
+    color: #3cb371;
+}
+
+.section_title p {
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
 }

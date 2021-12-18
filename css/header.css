@@ -11,8 +11,11 @@
     }
 }
 
-body {
-    width: auto;
+header {
+    width: 100%;
+    background: rgba(255,255,255,0.95);
+    position: fixed;
+    z-index: 999;
 }
 
 header h1 {
@@ -31,7 +34,21 @@ header h1 a img {
     vertical-align: bottom;
 }
 
-.header_contact  .menu_reservation {
+header .content .sns {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    list-style: none;
+}
+
+header .reservation {
     position: absolute;
     right: 5px;
     top: 0;
@@ -39,32 +56,25 @@ header h1 a img {
     list-style: none;
 }
 
-.menu_reservation .tel_number {
+header .reservation .tel_number {
     font-size: 2rem;
     letter-spacing: 5px;
     padding: 1.5rem 0;
 }
 
-.menu_reservation .tel_number span {
+header .reservation .tel_number span {
     font-size: 1.3rem;
     position: relative;
     top: -3px;
 }
 
-.menu_reservation .tel_number .tel1{
+header .reservation .number{
     font-size: 1.8rem;
     position: relative;
     top: -3px;
 }
 
-.header_contact .social_nav {
-    margin: 0;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.social_nav {
+header .header_menu .navi {
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: center;
@@ -73,20 +83,10 @@ header h1 a img {
     align-items: center;
     list-style: none;
 }
-
-.header_menu .g_nav {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
-    list-style: none;
-}
-.g_nav > li {
+header .navi > li {
     padding: 2px;
 }
-.g_nav > li > a {
+header .navi > li > a {
     display: block;
     padding: 8px;
     font-size: 1.2rem;

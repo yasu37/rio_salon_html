@@ -1,0 +1,49 @@
+/*記事2*/
+/* ~代表紹介~ */
+
+#ceo .container {
+    padding: 80px 50px;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#ceo .sub_title {
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#ceo .content {
+    display: flex;
+    justify-content: center;
+}
+
+#ceo .president_name {
+    font-size: 1.9rem;
+    line-height: 1.8;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#ceo .infomation {
+    padding-left: 50px;
+    line-height: 1.8;
+    width: 600px;
+}
+
+#ceo .infomation p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#ceo .button03 a {
+    background-color: #ecf8fa;
+    background-color: #e6ffe6;
+    background-color: #ebffeb;
+    margin-top: 55px;
+}
