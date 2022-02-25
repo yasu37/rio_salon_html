@@ -2,110 +2,256 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--
+    <meta name="viewport" content="RIO鍼灸サロンでは、東洋医学である「鍼灸」「漢方」をベースとして、身体の自然治癒力を高めるトータルケアを提案いたします。皆様の大切な毎日が元気にお過ごしになられますよう、ストレスに負けない｢心｣「健康力」｢美力｣への身体作りをサポートいたします。">
+    -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/article1.css">
-    <link rel="stylesheet" href="css/article2.css">
-    <link rel="stylesheet" href="css/article3.css">
-    <link rel="stylesheet" href="css/article4.css">
-    <link rel="stylesheet" href="css/article5.css">
-    <link rel="stylesheet" href="css/article6.css">
-    <link rel="stylesheet" href="css/article7.css">
+    <link rel="stylesheet" href="css/css_index/article1.css">
+    <link rel="stylesheet" href="css/css_index/article2.css">
+    <link rel="stylesheet" href="css/css_index/article3.css">
+    <link rel="stylesheet" href="css/css_index/article4.css">
+    <link rel="stylesheet" href="css/css_index/article5.css">
+    <link rel="stylesheet" href="css/css_index/article6.css">
+    <link rel="stylesheet" href="css/css_index/article7.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>RIOページ</title>
+    <title>水戸市の美容鍼灸-RIO鍼灸サロン</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-219604491-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-219604491-1');
+    </script>
 </head>
 <body>
 
     <!-- ~ header ~ -->
     <header>
-        <div class="container">
+        <div>
             <!--ロゴ-->
-            <h1 class="logo"><a href="/"><img src="./img/logo4.jpg" alt="rio"></a></h1>
+            <h1 class="logo1"><a href="" target="_self"><img src="./img/logo1.jpg" alt="お店のロゴの写真"></a></h1>
+            <h1 class="logo2"><a href="" target="_self"><img src="./img/logo2.jpg" alt="お店のロゴの写真"></a></h1>
+
             <!--内容-->
             <div class="content">
                 <ul class="sns">
-                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/rio_shinkyu_salon" target="_blank"><img src="./img/facebook1.jpg" alt="お店の公式facebook"></a></li>
+                    <li><a href="https://www.instagram.com/rio_shinkyu_salon" target="_blank"><img src="./img/instagram1.jpg" alt="お店の公式instagram"></a></li>
+                    <li><a href="https://line.me/R/ti/p/@834dvkdq" target="_blank"><img src="./img/line1.jpg" alt="お店の公式line"></a></li>
                 </ul>
                 <ul class="reservation">
                     <li class="tel_number">
                         <span>ご予約・ご相談</span>
-                        <span class="number">03-5708-5955</span>
+                        <span class="number">029-279-8639</span>
                     </li>
                 </ul>
             </div>
+
+            <!--プルダウン用-->
+            <label class="pull_down" for="menu">
+                <span class="pull1"></span>
+                <span class="pull2"></span>
+                <span class="pull3"></span>
+            </label>
+            <input type="checkbox" id="menu" class="pull_down">
+
             <nav class="header_menu">
                 <ul class="navi">
-                    <li><a href="/">トップ</a></li>
+                    <li><a href="./index.html" target="_self">トップ</a></li>
                     <li class="is_pc">／</li>
-                    <li class="menu_lv1"><a href="">リオについて</a></li>
+                    <li><a href="./about.html" target="_self">リオについて</a></li>
                     <li class="is_pc">／</li>
-                    <li class="menu_lv1"><a href="">施術について</a></li>
+                    <li><a href="./menu_html/menu1.html" target="_self">コース＆料金</a></li>
                     <li class="is_pc">／</li>
-                    <li><a href="">よくある質問</a></li>
+                    <li><a href="./question.html" target="_self">よくある質問</a></li>
                     <li class="is_pc">／</li>
-                    <li><a href="">ニュース</a></li>
+                    <li><a href="./news.html" target="_self">ニュース</a></li>
                     <li class="is_pc">／</li>
-                    <li class="menu_lv2"><a href="">ご予約・お問い合わせ</a></li>
+                    <li><a href="./inquiry.html" target="_self">ご予約・お問い合わせ</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- ~ main ~ -->>
+    <!-- ~ main ~ -->
     <main>
 
         <!--記事1-->
         <!-- ~ コンセプト紹介 ~ -->
+
         <section id="concept">
             <div class="container">
-                <div class="img">
-                    <img src="./img/img7.png" alt="" />
+                <div class="concept_img">
+                    <img class="above" src="./img/concept_img.JPG" alt="美容鍼灸の施術写真" />
                 </div>
-
-                <div class="catch_phrase">
-                    <h2>
-                        カラダと向き合う<br>時間を大切に
-                    </h2>
-                </div>
-
                 <div class="explanation">
                     <h3>CONCEPT</h3>
-                    <p>私達は皆様に<br>「自分の体と向き合う時間」を<br>大切にしていただきたいと<br>思っています。</p>
-                    <div class="button03">
-                        <a href="">リオについて</a>
+                    <p>私達は皆様の<br>「健康」と「美しさ」をサポートする<br>一番の理解者でありたいと<br>思っています。</p>
+                    <div class="button5 concept_button">
+                        <a href="./about.html" target="_self">リオについて</a>
                     </div>
                 </div>
             </div>
         </section>
 
+
+
         <!--記事2-->
         <!-- ~ 代表紹介 ~ -->
         <section id="ceo">
+            <div class="img">
+                <div class="ceo_img">
+                    <img src="img/ceo_img.JPG" alt="院長の顔写真">
+                </div>
+            </div>
             <div class="container">
-                <h2 class="sub_title">お客様のトータルライフパートナーであるために</h2>
+                <div class="section_title">
+                    <h2>ご挨拶</h2>
+                    <p>GREETING</p>
+                </div>
+                <h2 class="sub_title">お客様の「美容」と<br>「健康」をサポートする人であるために</h2>
                 <div class="content">
-                    <!--内容1-->
-                    <div class="president">
-                        <img src="./img/img8.jpg" alt="ルポゼ代表">
-                        <p class="president_name">リオ代表
-                            <br>李清恵
-                        </p>
-                    </div>
                     <!--内容2-->
                     <div class="infomation">
-                        <p>鍼灸はまだまだ「痛い」「怖い」「不安」とのイメージが先行していますが、本来は心地良く、疲れを癒し、様々な肌悩みを解決することが出来る、魅力的な施術です。<br>
-                            銀座ハリッチでは、最大限に痛みや内出血などのリスクを抑えた施術を致しておりますのでご安心ください。<br>
-                            わたくし自身が蕁麻疹、不眠、肌荒れなど、自律神経の乱れによる不調に10年以上悩まされ続けました。<br>
-                            そんな折、様々なことを試しても改善をしなかった症状が、鍼灸治療との出会いでみるみる改善されました。<br>
-                          </p>
+                        <p>
+                        「いつまでも元気で綺麗な自分でいたい」という気持ちは、性別問わず誰しもあるのではないでしょうか。
+                        <br>人は誰しも豊かで楽しい人生、快適な日常を送るために健康でありたいと願うものです。
+                        <br>肉体的にも精神的にも健康であってこそ健全な精神や判断力、チャレンジ精神が備わり、人生を楽しむ事が出来ます。
+                        <br>しかしストレス社会と言われている現代では、仕事の疲れ、加齢による体調の変化、環境の不適応などが原因で、「健康」と「美しさ」を維持するのは簡単ではありません。
+                        <br>RIO鍼灸サロンでは、東洋医学である「鍼灸」「漢方」をベースとして、もみほぐし、エステ、経絡オイルトリートメント、漢方浴、カッピング、ストレッチなど、「鍼灸」･「漢方」・「エステテテｨック」･「リラクゼーション」の４方面の施術を通して、身体の自然治癒力(自分で治ろうとする力)を高め、トータルケアを提案いたします。
+                        <br>皆様の大切な毎日が元気にお過ごしになられますよう、ストレスに負けない｢心｣「健康力」｢美力｣への身体作りをサポートいたします。
+                        </p>
                     </div>
                 </div>
-                <div class="button03">
-                    <a href="">リオについて</a>
+                <div class="button5 ceo_button">
+                    <a href="./about.html" target="_self">スタッフ紹介</a>
                 </div>
+            </div>
+        </section>
+
+
+        <!--記事4-->
+        <!-- ~ コース ~ -->
+        <section id="course" name="course">
+            <div class="container">
+                <div class="section_title">
+                    <h2>コース</h2>
+                    <p>COURSE</p>
+                </div>
+                <ul class="course_list">
+                    <li class="course_box">
+                        <div class="course_img">
+                            <img class="course_img1" src="./img/course_img1.JPG" alt="美容鍼灸の施術写真">
+                        </div>
+                        <div class="course_infomation">
+                            <p class="course_name">美容鍼灸</p>
+                            <p class="price">70分<br>¥10,000<span>(税込)</span>〜</p>
+                            <div class="button_course">
+                                <a href="./menu_html/menu1.html" target="_self">コース詳細</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="course_box">
+                        <div class="course_img">
+                            <img class="course_img2" src="./img/course_img2.JPG" alt="メンズ美容鍼灸の施術写真">
+                        </div>
+                        <div class="course_infomation">
+                            <p class="course_name">メンズ<br>美容鍼灸・エステ</p>
+                            <p class="price">70分<br>¥7,500<span>(税込)</span>〜</p>
+                            <div class="button_course">
+                                <a href="./menu_html/menu2.html" target="_self">コース詳細</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="course_box">
+                        <div class="course_img">
+                            <img class="course_img3" src="./img/course_img3.JPG" alt="鍼灸治療の施術写真">
+                        </div>
+                        <div class="course_infomation">
+                            <p class="course_name">鍼灸治療</p>
+                            <p class="price">60分<br>¥6,500<span>(税込)</span>〜</p>
+                            <div class="button_course">
+                                <a href="./menu_html/menu3.html" target="_self">コース詳細</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="course_box">
+                        <div class="course_img">
+                            <img class="course_img4" src="./img/course_img4.JPG" alt="もみほぐしの施術写真">
+                        </div>
+                        <div class="course_infomation">
+                            <p class="course_name">もみほぐし</p>
+                            <p class="price">30分<br>¥3,500<span>(税込)</span>〜</p>
+                            <div class="button_course">
+                                <a href="./menu_html/menu4.html" target="_self">コース詳細</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="course_box">
+                        <div class="course_img">
+                            <img class="course_img1" src="./img/course_img5.JPG" alt="フェイシャルエステの施術写真">
+                        </div>
+                        <div class="course_infomation">
+                            <p class="course_name">フェイシャル<br>エステ</p>
+                            <p class="price">70分<br>¥7,500<span>(税込)</span>〜</p>
+                            <div class="button_course">
+                                <a href="./menu_html/menu5.html" target="_self">コース詳細</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="course_box">
+                        <div class="course_img">
+                            <img class="course_img1" src="./img/img_sample/bridal6.jpg" alt="ブライダル写真">
+                        </div>
+                        <div class="course_infomation">
+                            <p class="course_name">ブライダル</p>
+                            <p class="price">180分<br>¥21,500<span>(税込)</span>〜</p>
+                            <div class="button_course">
+                                <a href="./menu_html/menu6.html" target="_self">コース詳細</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="course_box">
+                        <div class="course_img">
+                            <img class="course_img1" src="./img/course_img7.JPG" alt="オイルトリートメントの施術写真">
+                        </div>
+                        <div class="course_infomation">
+                            <p class="course_name">オイル<br>トリートメント</p>
+                            <p class="price">30分<br>¥3,500<span>(税込)</span>〜</p>
+                            <div class="button_course">
+                                <a href="./menu_html/menu7.html" target="_self">コース詳細</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="course_box">
+                        <div class="course_img">
+                            <img class="course_img1" src="./img/course_img8.JPG" alt="ホットストーンの施術写真">
+                        </div>
+                        <div class="course_infomation">
+                            <p class="course_name">ホットストーン・<br>アロマカッピング</p>
+                            <p class="price">30分<br>¥3,500<span>(税込)</span>〜</p>
+                            <div class="button_course">
+                                <a href="./menu_html/menu8.html" target="_self">コース詳細</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="course_box">
+                        <div class="course_img">
+                            <img class="course_img1" src="./img/course_img9.JPG" alt="横土座器の写真">
+                        </div>
+                        <div class="course_infomation">
+                            <p class="course_name">黄土漢方浴</p>
+                            <p class="price">40分<br>¥3,500<span>(税込)</span>〜</p>
+                            <div class="button_course">
+                                <a href="./menu_html/menu9.html" target="_self">コース詳細</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -119,26 +265,26 @@
                 </div>
                 <ul class="items">
                     <li class="item">
-                        <a href="/news_detail/22">
+                        <a href="./news.html" target="_self">
                             <div class="item_body">
-                                <time class="date">2021.11.30</time>
-                                <p class="ttl">年末年始のお知らせ</p>
+                                <time class="date">2022.1.11</time>
+                                <p class="ttl">スタッフ紹介</p>
                             </div>
                         </a>
                     </li>
                     <li class="item">
-                        <a href="/news_detail/21">
+                        <a href="./news.html" target="_self">
                             <div class="item_body">
-                                <time class="date">2021.11.17</time>
-                                <p class="ttl">店舗別で新しいオプション登場！！</p>
+                                <time class="date">2022.1.11</time>
+                                <p class="ttl">オープン記念キャンペーン</p>
                             </div>
                         </a>
                     </li>
                     <li class="item">
-                        <a href="/news_detail/20">
+                        <a href="./news.html" target="_self">
                             <div class="item_body">
-                                <time class="date">2021.10.01</time>
-                                <p class="ttl">【キッズスペース料金改定のお知らせ】</p>
+                                <time class="date">2022.1.11</time>
+                                <p class="ttl">RIO鍼灸サロンオープン</p>
                             </div>
                         </a>
                     </li>
@@ -146,108 +292,32 @@
             </div>
         </section>
 
-
-        <!--記事4-->
-        <!-- ~ コース ~ -->
-        <section id="course">
-            <div class="section_title">
-                <h2>コース</h2>
-                <p>course</p>
-            </div>
-            <div class="course_list">
-                <div class="course_box">
-                    <div class="image2">
-                        <a href=""> <img src="./img/img7.jpg"></a>
-                    </div>
-                    <div class="info">
-                        <h4 class="info1">-美容鍼-</h4>
-                        <div class="info2">
-                            <p>顔全体に鍼を打ち、血流やリンパや真皮層や筋肉層の流れを促す</p>
-                            <div class="button03">
-                                <a href="">コース詳細</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course_box">
-                    <div class="image2">
-                        <a href=""> <img src="./img/img7.jpg"></a>
-                    </div>
-                    <div class="info">
-                        <h4 class="info1">-鍼治療-</h4>
-                        <div class="info2">
-                            <p>血流やリンパの流れを促すお肌の真皮層</p>
-                            <div class="button03">
-                                <a href="">コース詳細</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course_box">
-                    <div class="image2">
-                        <a href=""> <img src="./img/img6.png"></a>
-                    </div>
-                    <div class="info">
-                        <h4 class="info1">-高麗手指鍼灸-</h4>
-                        <div class="info2">
-                            <p>お肌の真皮層や筋肉層までアプローチ。</p>
-                            <div class="button03">
-                                <a href="">コース詳細</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course_box">
-                    <div class="image2">
-                        <a href=""> <img src="./img/img5.jpg"></a>
-                    </div>
-                    <div class="info">
-                        <h4 class="info1">-薄毛治療-</h4>
-                        <div class="info2">
-                            <p>血流やリンパの流れを促すお肌の真皮層や筋肉層までアプローチ。</p>
-                            <div class="button03">
-                                <a href="">コース詳細</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course_box">
-                    <div class="image2">
-                        <a href=""> <img src="./img/img4.jpg"></a>
-                    </div>
-                    <div class="info">
-                        <h4 class="info1">-経路アロマオイルトリートメント-</h4>
-                        <div class="info2">
-                            <p>リフトアップ、美肌・美白、法令線のケア。</p>
-                            <div class="button03">
-                                <a href="">コース詳細</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
         <!--記事5-->
         <!-- ~ お問い合わせ情報 ~ -->
         <section id="reserved">
             <div class="container">
                 <div class="infomation">
-                    <p class="number"><span>ご予約・ご相談はこちら</span><br>029-350-7075</p>
-                    <p class="date">平日：11:00〜21:30（月曜定休）<span class="tab_none">｜</span><br class="is_tab">土日祝：10:00〜19:00</p>
+                    <p class="number"><span>ご予約・ご相談はこちら</span><br>029-279-8639</p>
+                    <p class="date">平日：10:00〜20:00(月曜定休)<br>土日祝：10:00〜20:00</p>
+                    <p class="ibanavi">＊WEBからのご予約は&ensp;<span>いばナビ</span>&ensp;をご利用ください。</p>
                 </div>
-                <p>WEBでのご予約はこちら</p>
-                <div class="button03">
-                    <a href="">コース詳細</a>
+                <div class="button5">
+                    <a href="./inquiry.html">ご予約はこちら</a>
                 </div>
             </div>
         </section>
+
+        <!-- ~ RIOのSNS一覧 ~ -->
+        <div id="rio_sns">
+            <p>公式Lineからも予約受付中です!</p>
+            <div class="list">
+                <ul>
+                    <li><a href="https://www.instagram.com/rio_shinkyu_salon" target="_blank">公式Facebook</a></li>
+                    <li><a href="https://www.instagram.com/rio_shinkyu_salon" target="_blank">公式Instagram</a></li>
+                    <li><a href="https://line.me/R/ti/p/@834dvkdq" target="_blank">公式Line</a></li>
+                </ul>
+            </div>
+        </div>
 
         <!--記事6-->
         <!-- ~ 店舗情報 ~ -->
@@ -256,76 +326,61 @@
                 <!--タイトル-->
                 <div class="section_title">
                     <h2>アクセス</h2>
-                    <p>access</p>
+                    <p>ACCESS</p>
                 </div>
-                <div class="content">
+                <ul class="content">
                     <!--内容1-->
-                    <div class="img">
-                        <img src="./img/location1.jpg">
-                    </div>
-                    <!--内容2-->
-                    <div class="dummy">
-                    </div>
+                    <li class="img box">
+                        <img src="./img/location.jpg" alt="RIO鍼灸院の外観">
+                    </li>
                     <!--内容3-->
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d405.13644322743863!2d139.7675032!3d35.6747478!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be4629dae43%3A0xb0455b8094aa0e15!2z44OP44Oq44OD44OB!5e0!3m2!1sja!2sjp!4v1535812471195" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
+                    <li class="map box">
+                        <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12855.86764302473!2d140.449371790053!3d36.337351782305326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60222568b6382539%3A0x4457e0f3746bdce1!2z44Oq44Kq6Y2854G444K144Ot44Oz44CQ576O5a656Y28JuODnuODg-OCteODvOOCuOOAkQ!5e0!3m2!1sja!2sjp!4v1641286190382!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </li>
                     <!--内容4-->
-                    <div class="infomation">
+                    <li class="infomation box">
                         <ul>
                             <li>
                                 <span>【住所】</span>
-                                <br>茨城県水戸市米沢町600-3 米沢1F
+                                <br>水戸市米沢町627
                             </li>
                             <li>
                                 <span>【道順】</span>
-                                <br>県庁南大通り沿いの
-                                <br>ローソン横に店舗
+                                <br>県庁南大通りを桜道りに
+                                <br>向かって、米沢町中央の
+                                <br>信号を左折すると左側に
+                                <br>当店の緑色の看板が見えます。
                             </li>
                             <li>
                                 <span>【TEL】</span>
-                                <br><a href="">029-350-7075</a>
+                                <br><a href="" class="number_color">029-279-8639</a>
                             </li>
+                            <div class="button5">
+                                <a href="./inquiry.html">ご予約はこちら</a>
+                            </div>
                         </ul>
-                        <div class="button03">
-                            <a href="">コース詳細</a>
-                        </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
-
-    <!--記事7-->
-    <!--
-    ~ サイト下に出るナビ ~
-    <div id="bottom_navi">
-        <div class="container">
-            <a href="tel:03-5708-5955" class="btn_link">TEL予約<span>03-5708-5955</span></a>
-            <a href="/reserve" class="btn_link">WEB予約</a>
-        </div>
-    </div>
-    -->
 
     <!-- ~ footer ~ -->
     <footer>
         <div class="container">
             <div>
-                <p class="number"><span>ご予約・ご相談</span><br><span class="tel1">029-350-7075</span></p>
-                <ul class="date">
-                    <li>平日：11:00〜21:30<span>(月曜定休)</span></li>
-                    <li>土日祝：10:00〜19:00</li>
-                </ul>
+                <p class="number"><span>ご予約・ご相談</span><br><span class="number_color">029-279-8639</span></p>
+                <p>平日：10:00〜20:00<span>(月曜定休)</span><br>土日祝：10:00〜20:00</p>
             </div>
             <div class="list">
-                <ul class="items">
-                    <li><a href="https://www.facebook.com/%E6%81%B5%E6%AF%94%E5%AF%BFHari-Na%E7%BE%8E%E5%AE%B9%E9%8D%BC%E7%81%B8-1223059144401621/?fref=ts"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="https://twitter.com/harinatokyo"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com/harinatokyo/"><i class="fab fa-instagram"></i></a></li>
+                <ul class="sns">
+                    <li><a href="https://www.instagram.com/rio_shinkyu_salon" target="_blank"><img src="./img/facebook2.png" alt="お店の公式facebook"></a></li>
+                    <li><a href="https://www.instagram.com/rio_shinkyu_salon" target="_blank"><img src="./img/instagram2.png" alt="お店の公式instagram"></a></li>
+                    <li><a href="https://line.me/R/ti/p/@834dvkdq" target="_blank"><img src="./img/line2.png" alt="お店の公式line"></a></li>
                 </ul>
             </div>
         </div>
-        <p class="copyright">&copy;2022&nbsp;&nbsp;RIO鍼灸漢方サロン</p>
+        <p class="copyright">&copy;2022&nbsp;RIO鍼灸漢方サロン</p>
     </footer>
 </body>
 </html>

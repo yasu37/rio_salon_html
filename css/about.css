@@ -1,0 +1,239 @@
+main {
+  padding-top: 5rem;
+}
+
+body {
+  background: #f4f6f4;
+}
+
+.container {
+  max-width: none;
+}
+
+#section .container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* ~リオについて ~ */
+#about .text_area {
+  display: block;
+  width: 65%;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#about .about_img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about .about_img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/*サイトの横幅が768px以下*/
+@media screen and (max-width: 768px){
+  #about .section_title {
+    padding-top: 0;
+    padding-bottom: 3rem;
+  }
+
+  #about .text_area {
+    width: 80%;
+    font-size: 1.6rem;
+  }
+}
+
+/*サイトの横幅が380px以下*/
+@media screen and (max-width: 380px){
+  #about .text_area {
+    font-size: 1.3rem;
+  }
+}
+
+
+/* ~院長あいさつ ~ */
+#director .container {
+  text-align: center;
+}
+
+#director .section_title {
+  margin-bottom: 13rem;
+}
+
+#director .director_introduction .director_img {
+  width: 75%;
+  display: inline-block;
+}
+
+#director img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  vertical-align: bottom;
+  position: relative;
+  right: 12%;
+  z-index: 10;
+}
+
+#director .director_name {
+  position: relative;
+  z-index: 15;
+  top: -10rem;
+  left: 75%;
+  padding: 2.5rem 2rem;
+  padding: 2.5rem 2rem 4rem 2rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  background: #ebffeb;
+  background: #B2DAD5;
+  background: #99CDC7;
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: 1rem;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+}
+
+#director .director_name .position {
+  font-size: 2.5rem;
+  color: #f4f6f4;
+  letter-spacing: 1.5rem;
+}
+
+#director .director_name .name {
+  font-size: 3.5rem;
+  color: #666;
+  color: #fff;
+}
+
+#director .license {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
+
+#director .profile {
+  width: 65%;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  text-align: left;
+}
+
+/*サイトの横幅が800px以下*/
+@media screen and (max-width: 800px){
+  #director .profile {
+    width: 80%;
+    font-size: 1.6rem;
+  }
+
+  #director .director_name .position {
+    font-size: 2rem;
+    color: #f4f6f4;
+    letter-spacing: 1.5rem;
+  }
+
+  #director .director_name .name {
+    font-size: 3rem;
+  }
+}
+
+/*サイトの横幅が600px以下*/
+@media screen and (max-width: 600px){
+
+  #director .section_title {
+    margin-bottom: 5rem;
+  }
+
+  #director .director_introduction .director_img {
+    width: 80%;
+  }
+
+  #director img {
+    right: auto;
+  }
+
+  #director .director_name {
+    left: auto;
+    top: 4rem;
+    right: 30%;
+    padding: 0;
+    writing-mode: horizontal-tb;
+  }
+
+  #director .director_name .position {
+    font-size: 1.3rem;
+    letter-spacing: 1rem;
+  }
+
+  #director .director_name .name {
+    font-size: 1.5rem;
+  }
+}
+
+/*サイトの横幅が380px以下*/
+@media screen and (max-width: 380px){
+
+  #director .director_introduction .director_img {
+    width: 90%;
+  }
+
+  #director .director_name .position {
+    font-size: 1.2rem;
+    letter-spacing: 0.9rem;
+  }
+
+  #director .director_name .name {
+    font-size: 1.4rem;
+  }
+
+  #director .license {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+
+  #director .profile {
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+/*サイトの横幅が780px以下*/
+@media screen and (max-width: 780px){
+}
+
+/*サイトの横幅が600px以下*/
+@media screen and (max-width: 600px){
+
+}
+
+/*サイトの横幅が450px以下*/
+@media screen and (max-width: 450px){
+
+}
+
+/*サイトの横幅が380px以下*/
+@media screen and (max-width: 380px){
+}
+
+/*サイトの横幅が330px以下*/
+@media screen and (max-width: 330px){
+}
