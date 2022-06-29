@@ -86,6 +86,7 @@ main {
   letter-spacing: 1px;
   text-align: right;
 }
+
 #menu_container .course_price span {
   font-size: 1.3rem;
   letter-spacing: 0.5px;
@@ -120,7 +121,7 @@ main {
   border-radius: 0.3rem;
 }
 
-#menu_container .container{
+#menu_container .container {
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
@@ -152,7 +153,7 @@ main {
   border-radius: 0.2rem;
   background: #ebffeb;
   background: #CCE6E3;
-  font-family: "Noto Sans Japanese","メイリオ",Meiryo,sans-serif;
+  font-family: "Noto Sans Japanese", "メイリオ", Meiryo, sans-serif;
 }
 
 #menu_container .button5 a {
@@ -173,7 +174,7 @@ main {
 }
 
 /*サイトの横幅が780px以下*/
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px) {
 
   #menu_list {
     padding-top: 0;
@@ -215,7 +216,7 @@ main {
 }
 
 /*サイトの横幅が600px以下*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
   #menu_list {
     padding-top: 2rem;
@@ -275,7 +276,7 @@ main {
 }
 
 /*サイトの横幅が450px以下*/
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
 
   #menu_list .menu_course {
     font-size: 1.3rem;
@@ -318,7 +319,7 @@ main {
 }
 
 /*サイトの横幅が395px以下*/
-@media screen and (max-width: 395px){
+@media screen and (max-width: 395px) {
   #menu_container .course_detail {
     font-size: 1rem;
   }
@@ -326,7 +327,7 @@ main {
 
 
 /*サイトの横幅が380px以下*/
-@media screen and (max-width: 380px){
+@media screen and (max-width: 380px) {
 
   #menu_list .menu_course li {
     height: 40px;
@@ -365,7 +366,7 @@ main {
 }
 
 /*サイトの横幅が330px以下*/
-@media screen and (max-width: 330px){
+@media screen and (max-width: 330px) {
 
   #menu_list .menu_course {
     font-size: 1.2rem;
@@ -397,7 +398,6 @@ main {
   }
 
   .section_title p {
-    font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
 

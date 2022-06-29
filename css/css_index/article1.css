@@ -1,6 +1,20 @@
 /*記事1*/
 /* ~コンセプト紹介 ~ */
 
+header .logo {
+    width: 140px;
+    max-width: 140px;
+    margin: 0.5rem auto 1.5rem;
+}
+
+header .logo a {
+    width: 100%;
+}
+
+header .logo a img {
+    display: inline-block;
+}
+
 #concept .container {
     max-width: 950px;
 }
@@ -37,7 +51,7 @@
 #concept .explanation h3 {
     color: #666;
     font-weight: normal;
-    font-size: 3.5rem;
+    font-size: 3rem;
     letter-spacing: 1rem;
     text-align: right;
     line-height: 4.5rem;
@@ -71,7 +85,7 @@
 }
 
 /*サイトの横幅が780px以下*/
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px) {
 
     #concept .button5 a {
         font-size: 1.6rem;
@@ -96,7 +110,7 @@
 }
 
 /*サイトの横幅が600px以下*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
     #concept {
         padding-top: 2rem;
@@ -118,7 +132,7 @@
 }
 
 /*サイトの横幅が450px以下*/
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
 
     #concept .explanation p {
         letter-spacing: 0.4rem;
@@ -131,7 +145,7 @@
 }
 
 /*サイトの横幅が380px以下*/
-@media screen and (max-width: 380px){
+@media screen and (max-width: 380px) {
 
     #concept .explanation {
         padding: 2rem;
@@ -154,7 +168,7 @@
 }
 
 /*サイトの横幅が330px以下*/
-@media screen and (max-width: 330px){
+@media screen and (max-width: 330px) {
 
     #concept .explanation h3 {
         letter-spacing: 0.2rem;

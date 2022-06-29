@@ -19,8 +19,7 @@
     max-width: 100%;
     margin: 0 auto;
     height: 40rem;
-    width: 87%;
-
+    width: 80%;
 }
 
 #ceo .ceo_img img {
@@ -36,8 +35,12 @@
     width: 100%;
 }
 
+#ceo .section_title {
+    padding-bottom: 3rem;
+}
+
 #ceo .section_title p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 0.1rem;
 }
 
@@ -45,16 +48,16 @@
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
-    font-size: 3rem;
+    text-align: center;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #008475;
     letter-spacing: 0.6rem;
     line-height: 3.5rem;
     font-family: YakuHanMP, "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", "Noto Serif JP", serif !important;
     border-bottom: 1.5px solid #d4ab37;
-    margin-bottom: 5rem;
-    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 #ceo .content {
@@ -64,32 +67,32 @@
 }
 
 #ceo .infomation {
-    line-height: 4rem;
+    line-height: 2.5rem;
     width: 70%;
 }
 
 #ceo .infomation p {
-    font-size: 2.3rem;
+    font-size: 1.6rem;
     text-align: left;
 }
 
 #ceo .ceo_button a {
-    width: 30%;
-    font-size: 2.5rem;
+    width: 20%;
+    font-size: 1.8rem;
     background: #ebffeb;
     border: 1.5px solid #008475;
 }
 
 #ceo .ceo_button a:after {
     width: 25px;
-    height: 19px;
+    height: 17px;
 }
 
 
 
 
 /*サイトの横幅が780px以下*/
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px) {
 
     #ceo .section_title h2 {
         font-size: 3.5rem;
@@ -102,10 +105,6 @@
 
     #ceo .sub_title {
         font-size: 3rem;
-    }
-
-    #ceo .infomation p {
-        font-size: 2rem;
     }
 
     #ceo .ceo_img {
@@ -125,7 +124,7 @@
 }
 
 /*サイトの横幅が600px以下*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
     #ceo {
         margin-top: 5rem;
@@ -163,7 +162,7 @@
 }
 
 /*サイトの横幅が450px以下*/
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
 
     #ceo .section_title {
         padding-top: 3rem;
@@ -183,7 +182,7 @@
         letter-spacing: 0.1rem;
         line-height: 2.5rem;
         margin-bottom: 3rem;
-        padding-bottom:1rem;
+        padding-bottom: 1rem;
     }
 
     #ceo .infomation p {
@@ -203,12 +202,12 @@
 }
 
 /*サイトの横幅が380px以下*/
-@media screen and (max-width: 380px){
+@media screen and (max-width: 380px) {
     #ceo .sub_title {
         font-size: 1.6rem;
         line-height: 2.5rem;
         margin-bottom: 3rem;
-        padding-bottom:1rem;
+        padding-bottom: 1rem;
     }
 
     #ceo .button5 a {
@@ -218,7 +217,7 @@
 }
 
 /*サイトの横幅が330px以下*/
-@media screen and (max-width: 330px){
+@media screen and (max-width: 330px) {
     #ceo .sub_title {
         font-size: 1.4rem;
         line-height: 2rem;

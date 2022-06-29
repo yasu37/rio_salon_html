@@ -1,6 +1,72 @@
 @charset "UTF-8";
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+menu,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -13,7 +79,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 body {
   display: block;
   text-align: center;
-  font-family: "Noto Serif JP",serif;
+  font-family: "Noto Serif JP", serif;
   color: #666;
   font-size: 1.6rem;
   font-style: normal;
@@ -21,7 +87,9 @@ body {
   width: auto;
 }
 
-p, div, header{
+p,
+div,
+header {
   display: block;
 }
 
@@ -50,7 +118,7 @@ img {
   margin: auto;
 }
 
-@media screen and (min-width:1px) and (max-width: 768px){
+@media screen and (min-width:1px) and (max-width: 768px) {
   main {
     padding-top: 5rem;
     padding-bottom: 2rem;
@@ -86,7 +154,7 @@ img {
   content: '';
   width: 5px;
   height: 5px;
-  border-top:  3px solid #2285b1;
+  border-top: 3px solid #2285b1;
   border-right: 3px solid #2285b1;
   transform: rotate(45deg);
 }
@@ -119,7 +187,7 @@ img {
   content: '';
   width: 5px;
   height: 5px;
-  border-top:  3px solid #2285b1;
+  border-top: 3px solid #2285b1;
   border-right: 3px solid #2285b1;
   transform: rotate(45deg);
 }
@@ -182,7 +250,7 @@ img {
 }
 
 .section_title h2 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   letter-spacing: 1rem;
   font-weight: bold;
   color: #d4ab37;
@@ -207,7 +275,6 @@ img {
   }
 
   .section_title h2 {
-    line-height: 1.5;
     font-size: 2.5rem;
   }
 
@@ -215,11 +282,6 @@ img {
 
 /*サイトの横幅が330px以下*/
 @media screen and (max-width:330px) {
-
-  .section_title h2 {
-    line-height: 1.5;
-    font-size: 1.8rem;
-  }
 
   .section_title p {
     font-size: 1rem;
@@ -229,23 +291,16 @@ img {
 }
 
 /*サイトの横幅が780px以下*/
-@media screen and (max-width: 780px){
-}
+@media screen and (max-width: 780px) {}
 
 /*サイトの横幅が600px以下*/
-@media screen and (max-width: 600px){
-
-}
+@media screen and (max-width: 600px) {}
 
 /*サイトの横幅が450px以下*/
-@media screen and (max-width: 450px){
-
-}
+@media screen and (max-width: 450px) {}
 
 /*サイトの横幅が380px以下*/
-@media screen and (max-width: 380px){
-}
+@media screen and (max-width: 380px) {}
 
 /*サイトの横幅が330px以下*/
-@media screen and (max-width: 330px){
-}
+@media screen and (max-width: 330px) {}
